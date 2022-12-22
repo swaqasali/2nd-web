@@ -1,0 +1,59 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+ }
+ header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url(../cars.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ }
+ ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+ }
+ ul li{
+    display: inline-block;
+ }
+ul li a{
+text-decoration: none;
+color:rgb(204, 235, 300);
+padding: 3px 18px;
+border: 1px solid transparent rgb(233, 104, 104);
+transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.title{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+transform:translate(-20%,-10%);
+}
+.title h1{
+    color: rgb(223, 231, 233);
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+transform:translate(-20%,-24%);
+}
+.btn{
+    border:1px solid #fff;
+    color: #fff;
+    padding: 5px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+ 
